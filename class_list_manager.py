@@ -8,14 +8,20 @@ def count_names(names):
 #written by:Rawan (task 2)
 def search_name(names, name):
     return name in names
-
+# Written by: Joud (task 8)
+def remove_duplicates(names):
+    unique_names = []
+    for name in names:
+        if name not in unique_names:
+            unique_names.append(name)
+    return unique_names
 
 def main():
+    print("Welcome to the Class List Manager!")
+    print("Class list:", names)
+    # Each student calls her function here, for example:
+    print("Number of names:", count_names(names))
+    print("Search result:", search_name(names, "Rawan"))
+    print("List without duplicates:", remove_duplicates(names))
 
-    
-        print("Welcome to the Class List Manager!")
-        print("Class list:", names)
-        # Each student calls her function here, for example:
-        print("Number of names:", count_names(names))
-        print("Search result:", search_name(names, "Rawan"))
 main()
