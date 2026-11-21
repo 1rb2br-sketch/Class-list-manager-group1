@@ -15,6 +15,16 @@ def remove_duplicates(names):
         if name not in unique_names:
             unique_names.append(name)
     return unique_names
+# Written by: Yara (Task 7)
+def count_vowels(name):
+    count = 0
+    for letter in name.lower():
+        if letter in "aeiou":
+            count += 1
+    return count
+
+print("Number of vowels:", count_vowels(names[0]))
+main()
 
 def main():
     print("Welcome to the Class List Manager!")
