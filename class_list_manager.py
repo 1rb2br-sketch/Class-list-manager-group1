@@ -23,7 +23,11 @@ def count_vowels(name):
             count += 1
     return count
 
+# Written by: Reema
+def sort_names(names):
+    return sorted(names)
 
+main()
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
