@@ -27,7 +27,6 @@ def count_vowels(name):
 def sort_names(names):
     return sorted(names)
 
-main()
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
@@ -38,3 +37,4 @@ def main():
     print("Number of vowels:", count_vowels(names[0]))
     print("Sorted names:", sort_names(names))
 
+main()
