@@ -23,7 +23,7 @@ def count_vowels(name):
             count += 1
     return count
 
-# Written by: Reema
+# Written by: Reema (Task 3)
 def sort_names(names):
     return sorted(names)
 
@@ -36,5 +36,5 @@ def main():
     print("Search result:", search_name(names, "Rawan"))
     print("List without duplicates:", remove_duplicates(names))
     print("Number of vowels:", count_vowels(names[0]))
-
+    print("Sorted names:", sort_names(names))
 
