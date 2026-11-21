@@ -23,8 +23,6 @@ def count_vowels(name):
             count += 1
     return count
 
-print("Number of vowels:", count_vowels(names[0]))
-main()
 
 def main():
     print("Welcome to the Class List Manager!")
@@ -33,4 +31,6 @@ def main():
     print("Number of names:", count_names(names))
     print("Search result:", search_name(names, "Rawan"))
     print("List without duplicates:", remove_duplicates(names))
+    print("Number of vowels:", count_vowels(names[0]))
+
 
