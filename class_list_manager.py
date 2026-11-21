@@ -25,3 +25,14 @@ def main():
     print("List without duplicates:", remove_duplicates(names))
 
 main()
+# Written by: Yara (Task 7)
+def count_vowels(name):
+    count = 0
+    for letter in name.lower():
+        if letter in "aeiou":
+            count += 1
+    return count
+
+print("Number of vowels:", count_vowels(names[0]))
+
+main
