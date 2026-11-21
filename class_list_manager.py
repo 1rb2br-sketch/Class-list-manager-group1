@@ -5,6 +5,9 @@ names = ["Renad", "Rawan", "Joud", "Reema", "Yara"]
 #written by: Renad (task 1)
 def count_names(names):
     return len(names)
+#written by:Rawan (task 2)
+def search_name(names, name):
+    return name in names
 
 
 def main():
@@ -14,4 +17,5 @@ def main():
         print("Class list:", names)
         # Each student calls her function here, for example:
         print("Number of names:", count_names(names))
+        print("Search result:", search_name(names, "Rawan"))
 main()
