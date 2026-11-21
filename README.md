@@ -7,6 +7,7 @@ GitHub Teamwork Project
 
 | Student Name | Task | Function |
 |---|---|---|
+|Renad |........|creat calss_list_manager.py|
 | Renad | Task 1 | count_names() |
 | Rawan | Task 2 | search_name() |
 | Joud | Task 8 | remove_duplicates() |
